@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-import np as np
 import numpy as np
 
 file = 'vna_remote.txt'
@@ -26,3 +25,4 @@ f0_MHz = np.round(f_0/1E6, 2) #MHz
 bw_kHz = np.round(bw/1E3, 1) #kHz
 Q = int(np.round(f_0/bw,0))
 
+print(Q)
